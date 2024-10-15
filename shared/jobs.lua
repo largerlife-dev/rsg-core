@@ -78,5 +78,31 @@ RSGShared.Jobs = {
             ['4'] = { name = 'Manager', isboss = true, payment = 100 },
         },
     },
+    railroader = {
+        label = 'Railroader',
+        type = 'railroader',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            ['0'] = { name = 'Recruit', payment = 5 },
+            ['1'] = { name = 'Mechanic', payment = 25 },
+            ['2'] = { name = 'Driver',  payment = 50 },
+            ['3'] = { name = 'Manager', isboss = true, payment = 75 },
+            ['4'] = { name = 'Company Owner', isboss = true, payment = 100 },
+        },
+    },
+    stdgunsmith = {
+        label = 'St. Denis Gunsmith',
+        type = 'weaponsmith',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            ['0'] = { name = 'Recruit', payment = 5 },
+            ['1'] = { name = 'Apprentice', payment = 25 },
+            ['2'] = { name = 'Gunsmith',  payment = 50 },
+            ['3'] = { name = 'Manager', isboss = true, payment = 75 },
+            ['4'] = { name = 'Owner', isboss = true, payment = 100 },
+        },
+    },
 
 }
