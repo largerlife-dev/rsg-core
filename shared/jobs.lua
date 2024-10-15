@@ -91,7 +91,7 @@ RSGShared.Jobs = {
             ['4'] = { name = 'Company Owner', isboss = true, payment = 100 },
         },
     },
-    stdgunsmith = {
+    stdweaponsmith = {
         label = 'St. Denis Gunsmith',
         type = 'weaponsmith',
         defaultDuty = false,
