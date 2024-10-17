@@ -94,19 +94,27 @@ RSGShared.Items = {
     p_lgoc_spinner_v6              = { name = 'p_lgoc_spinner_v6',              label = 'Improved Spinner',         weight = 10, type = 'item', image = 'p_lgoc_spinner_v6.png',              unique = false, useable = true, shouldClose = true, description = 'used for fishing' },
 
     -- Mining and crafting
-    copper          = {name= 'copper',      label= 'Copper',    weight= 100,    type= 'item', image= 'copper.png',      unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
-    aluminum        = {name= 'aluminum',    label= 'Aluminum',  weight= 100,    type= 'item', image= 'aluminum.png',    unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
-    iron            = {name= 'iron',        label= 'Iron',      weight= 100,    type= 'item', image= 'iron.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
-    steel           = {name= 'steel',       label= 'Steel',     weight= 100,    type= 'item', image= 'steel.png',       unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
-    wood            = {name= 'wood',        label= 'Wood',      weight= 100,    type= 'item', image= 'wood.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
-    stone           = {name= 'stone',       label= 'Stone',     weight= 1,      type= 'item', image= 'stone.png',       unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A common rock.'},
-    rock            = {name= 'rock',        label= 'Rock',      weight= 1,      type= 'item', image= 'rock.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A common rock.'},
-    rocksalt        = {name= 'rocksalt',    label= 'Rock Salt', weight= 1,      type= 'item', image= 'rocksalt.png',    unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A type of salt found in rocks.'},
-    silver          = {name= 'silver',      label= 'Silver',    weight= 1,      type= 'item', image= 'silver.png',      unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A precious metal known for its beauty and value.'},
-    coal            = {name= 'coal',        label= 'Coal',      weight= 1,      type= 'item', image= 'coal.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A combustible black or brownish-black sedimentary rock.'},
-    diamond         = {name= 'diamond',     label= 'Diamond',   weight= 1,      type= 'item', image= 'diamond.png',     unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A rare and valuable gemstone.'},
-    ruby            = {name= 'ruby',        label= 'Ruby',      weight= 1,      type= 'item', image= 'ruby.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A precious stone of transparent red corundum.'},
-    emerald         = {name= 'emerald',     label= 'Emerald',   weight= 1,      type= 'item', image= 'emerald.png',     unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A precious stone of transparent green beryl.'},
+    copper              = {name= 'copper',      label= 'Copper',    weight= 100,    type= 'item', image= 'resource_copper_ore.png',     unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
+    aluminum            = {name= 'aluminum',    label= 'Aluminum',  weight= 100,    type= 'item', image= 'aluminum.png',                unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
+    iron                = {name= 'iron',        label= 'Iron',      weight= 100,    type= 'item', image= 'resource_iron.png',           unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
+    steel               = {name= 'steel',       label= 'Steel',     weight= 100,    type= 'item', image= 'resource_steel_bar.png',      unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
+    wood                = {name= 'wood',        label= 'Wood',      weight= 100,    type= 'item', image= 'lumber_wood_logs.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'crafting material'},
+    stone               = {name= 'stone',       label= 'Stone',     weight= 10,      type= 'item', image= 'resource_rock.png',          unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A common rock.'},
+    rock                = {name= 'rock',        label= 'Rock',      weight= 10,      type= 'item', image= 'resource_rock2.png',         unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A common rock.'},
+    rocksalt            = {name= 'rocksalt',    label= 'Rock Salt', weight= 1,      type= 'item', image= 'resource_salt_rock.png',      unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A type of salt found in rocks.'},
+    silver              = {name= 'silver',      label= 'Silver',    weight= 1,      type= 'item', image= 'resource_silver_ore.png',     unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A precious metal known for its beauty and value.'},
+    coal                = {name= 'coal',        label= 'Coal',      weight= 1,      type= 'item', image= 'resource_coal.png',           unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A combustible black or brownish-black sedimentary rock.'},
+    diamond             = {name= 'diamond',     label= 'Diamond',   weight= 1,      type= 'item', image= 'resource_diamond_uncut.png',  unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A rare and valuable gemstone.'},
+    ruby                = {name= 'ruby',        label= 'Ruby',      weight= 1,      type= 'item', image= 'resource_ruby_uncut.png',     unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A precious stone of transparent red corundum.'},
+    emerald             = {name= 'emerald',     label= 'Emerald',   weight= 1,      type= 'item', image= 'resource_emerald_uncut.png',  unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A precious stone of transparent green beryl.'},
+
+    -- Railrooader items
+    coal_bag            = {name= 'coal_bag',            label= 'Coal bag',          weight= 20, type= 'item', image= 'resource_bag_coal.png',   unique= false, useable= true, shouldClose= true, combinable= nil, description= 'A bag of coal for railroaders to fill the train\'s coal bunker.'},
+    train_repair_kit    = {name= 'train_repair_kit',    label= 'Train repair kit',  weight= 10, type= 'item', image= 'tool_resource_wrench.png',   unique= false, useable= true, shouldClose= true, combinable= nil, description= 'Train repair kit, to repair and maintain train parts'},
+    
+    -- Tools and crafting
+    pickaxe             = {name= 'pickaxe',             label= 'Pick axe',          weight= 10, type= 'item', image= 'tool_pickaxe.png',        unique= false, useable= true, shouldClose= true, combinable= nil, description= 'Pickaxe is the miner\'s best friend'},
+
 
 
     -----------------------------------------------
